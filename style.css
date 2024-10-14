@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  font-size: xx-large;
+  
+  
+}
+  
+.mainbody {
+  background-color: rgb(160, 247, 102); 
+  height: 600px;
+  width: 18%;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 12px;
+  border: 2px solid black;
+ 
+}
+.button
+{
+  background-color: rgb(246, 233, 107);
+  font-size: 15px;
+  text-align: center;
+  padding: 20px;
+  margin: 4px 2px;
+  margin-top: 20px;
+  cursor: pointer;
+  
+  
+}
+
+.button1{
+  border-radius: 12px;
+
+}
+  
+ 
+.Display {
+  
+  height: 80px;
+  width:80%;
+  margin-left:auto;
+  margin-right: auto;
+ 
+}
+.Display input {
+  width: 100%;
+  border: none;
+  background: #333;
+  color: #fff;
+  font-size: 1.5em;
+  text-align: right;
+}

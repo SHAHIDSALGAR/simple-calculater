@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple calculater </title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+</head>
+<body>
+    <div>
+      <h1> Simple Calculater</h1>
+      <hr>
+      <div class="mainbody">
+        <h3> index calculater</h3>
+        <div class="Display">
+          
+            <input type="text" id="display" disabled>
+        </div>
+        <div>
+            <button class=" button button1" onclick="appendToDisplay('7')" >7</button>
+            <button class=" button button1" onclick="appendToDisplay('8')" >8</button>
+            <button class=" button button1" onclick="appendToDisplay('9')" >9</button>
+            <button class=" button button1"  onclick="appendToDisplay('*')">*</button>
+            
+        </div>
+        <div>
+            <button class=" button button1" onclick="appendToDisplay('4')" >4</button>
+            <button class=" button button1" onclick="appendToDisplay('5')" >5</button>
+            <button class=" button button1" onclick="appendToDisplay('6')">6</button>
+            <button class=" button button1" onclick="appendToDisplay('-')">-</button>
+            
+        </div>
+        <div>
+            <button class=" button button1" onclick="appendToDisplay('1')">1</button>
+            <button class=" button button1" onclick="appendToDisplay('2')">2</button>
+            <button class=" button button1" onclick="appendToDisplay('3')">3</button>
+            <button class=" button button1" onclick="appendToDisplay('+')">+</button>
+            
+        </div>
+        <div>
+            <button class=" button button1" onclick="clearDisplay('clear')" >clear</button>
+            <button class=" button button1" onclick="appendToDisplay('0')">0</button>
+            <button class=" button button1" onclick="appendToDisplay('.')">.</button>
+            <button class=" button button1" onclick="calculateResult('=')">=</button>
+            
+        </div>
+        
+       
+           
+    </div>
+
+    <script src="./index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</body>
+</html>
